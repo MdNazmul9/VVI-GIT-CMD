@@ -1,3 +1,4 @@
+```
 # VVI-GIT-CMD
 
 How to set origin
@@ -74,5 +75,5 @@ Note: Before shutdown the computer open the terminal from your project and follo
  
 
 
-
+```
 
