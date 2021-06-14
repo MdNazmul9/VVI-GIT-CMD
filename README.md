@@ -1,1 +1,78 @@
 # VVI-GIT-CMD
+
+How to set origin
+==================
+git remote set-url origin https://github.com/worldehsansocialsite/ehsan_social.git
+
+
+
+===========================================
+= How to switch user using GIT CLI (VVI)  =
+===========================================
+
+
+
+STEP 1: Logout from GIT
+===========================
+git config --global --unset user.name
+git config --global --unset user.email
+git config --global --unset credential.helper
+
+
+
+STEP 2: Set remot origin (its optional but important)
+=====================================================
+git remote set-url origin https://github.com/dir/dir.git
+Note: Write your repo link above
+
+
+
+STEP 3: Git
+===========
+git add .
+git commit -m"some commit"
+
+
+-------------------------------------------------------------
+This message will appear:                                   =
+                                                            =
+Author identity unknown                                     =  
+                                                            =
+*** Please tell me who you are.                             =
+Run                                                         =
+                                                            =
+  git config --global user.email "you@example.com"          =
+  git config --global user.name "Your Name"                 =
+                                                            =
+to set your account's default identity.                     =
+Omit --global to set the identity only in this repository.  =
+-------------------------------------------------------------
+
+
+
+STEP 4: set email and username
+==============================
+git config --global user.email "your email"
+git config --global user.name "username"
+
+
+
+Step 5: Again Commit & push
+===========================
+git commit -m"Some comment"
+git push
+
+
+--------------------------------------------------------
+This message will appear and write them                =
+Username for 'https://github.com': writeUsername       =
+Password for 'https://email@domain.com': writePassword =
+--------------------------------------------------------
+
+Thats IT. you are done 
+Note: Before shutdown the computer open the terminal from your project and follow the step 1
+ 
+
+
+
+
